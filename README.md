@@ -6,6 +6,7 @@ pip install datetime-extractor
 
 # Example1
   from datetime-extractor import DateTimeExtractor
+
   import pandas as pd
 
   samplestring = 'scala> val xorder= new order(1,"2016-02-22 00:00:00.00",100,"COMPLETED")'
@@ -18,4 +19,5 @@ pip install datetime-extractor
 Suppose if one has a dataframe with text column where timestamps written, the above function can be used to create a new column with extracted timestamp strings. One can use below command in this case
 
   data = pd.read_csv('sampledata.csv')
+
   data['ExtractedTimestamp'] = data['textcolumn'].apply(lambda x: DateTimeExtractor(x))
