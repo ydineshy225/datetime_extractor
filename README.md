@@ -7,8 +7,11 @@ pip install datetime-extractor
 # Example1
   from datetime-extractor import DateTimeExtractor
   import pandas as pd
+
   samplestring = 'scala> val xorder= new order(1,"2016-02-22 00:00:00.00",100,"COMPLETED")'
+
   DateTimeExtractor(samplestring)
+
   Out: ['2016-02-22 00:00:00.00']
 
 # Example2
