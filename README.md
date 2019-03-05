@@ -2,7 +2,7 @@
 The main intent of this project is to extract mostly all possible timestamps from a given string where date and time written together. It extracts timestaamps in a string format. Later one can convert extracted timestamp to python timestamp using pandas datetime package.
 
 # How to install the package
-pip install datetime-extractor
+  $ pip install datetime-extractor
 
 # Example1
   from datetime_extractor import DateTimeExtractor
