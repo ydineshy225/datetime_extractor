@@ -5,7 +5,7 @@ The main intent of this project is to extract mostly all possible timestamps fro
 pip install datetime-extractor
 
 # Example1
-  from datetime-extractor import DateTimeExtractor
+  from datetime_extractor import DateTimeExtractor
 
   import pandas as pd
 
